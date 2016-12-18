@@ -19,12 +19,23 @@
 #         print("{1} times {0} is {2}". format(i, j, i*j))
 #         print("=============")
 
-shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
-for item in shopping_list:
-    if item == 'spam':
-        break
+# shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
+# for item in shopping_list:
+#     if item == 'spam':
+#         break
 
-    print("Buy " + item)
+#     print("Buy " + item)
+
+meal = ["egg", "bacon", "tomato", "rice"]
+
+for item in meal:
+    if item == 'bacon':
+        nasty_food_item = item
+        break
+#
+if nasty_food_item:
+# #instead of underscore can put nastyFoodItem
+    print("Can i have anything without bacon in it?")
 
 
 
