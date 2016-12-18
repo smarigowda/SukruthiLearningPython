@@ -8,5 +8,24 @@
 # newNumber = int(cleanedNumber)
 # print("The number is {}".format(newNumber))
 
-for state in [" not pinin'", " no more", " a stiff", " bereft of life"]:
-    print("This parrot is"+ state)
+# for state in [" not pinin'", " no more", " a stiff", " bereft of life"]:
+#     print("This parrot is"+ state)
+
+for i in range(0, 100, 5):
+    print("i is {} ".format(i))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
