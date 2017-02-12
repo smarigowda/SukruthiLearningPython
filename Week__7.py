@@ -97,9 +97,19 @@
 
 # print(odd[985]) # It gives the 985th odd number
 
-sevens = range(7, 1000000, 7)
-x = int(input("Please enter a positive number less than 1 million,if divisible by 7 an answer is given: "))
-if x in sevens:
-	print("{} is divisible by seven". format(x))
+# sevens = range(7, 1000000, 7)
+# x = int(input("Please enter a positive number less than 1 million,if divisible by 7 an answer is given: "))
+# if x in sevens:
+# 	print("{} is divisible by seven". format(x))
 
+small_decimals = range(0, 10)
+print(small_decimals)
+
+print(small_decimals.index(3))
+my_range = small_decimals[::2] # creates another list with increments of 2
+print(my_range)
+for i in my_range:
+	print(i)
+print("---")
+print(my_range.index(8))
 
