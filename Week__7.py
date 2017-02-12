@@ -49,10 +49,27 @@
 # print(next(my_iterator))
 # print(next(my_iterator))
 
-string = "1234567890"
+# string = "1234567890"
 
-for char in string:
-	print(char)
+# for char in string:
+# 	print(char)
 
-for char in iter(string): # this is what the computer does
-	print(char)
+# for char in iter(string): # this is what the computer does
+# 	print(char)
+
+
+for i in range(0, 1):
+	print i
+
+my_list = ["1,2,3,4,5,6,7"] # this is a single element
+my_iterator = iter(my_list)
+
+for i in range(0, len(my_list)):
+	next_item = next(my_iterator)
+	print(next_item)
+
+
+
+
+
+
