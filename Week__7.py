@@ -14,22 +14,37 @@
 
 # print(list("The lists are equal"))
 
-menu = []
-menu.append(["egg","spam","carrots"])
-menu.append(["egg", "potatoes","carrots"])
-menu.append(["egg","spam",])
-menu.append(["egg","carrots", "spam"])
-menu.append(["egg","carrots","potatoes","spam"])
-menu.append(["spam","carrots","potatoes","spam"])
-menu.append(["spam","egg","spam","spam","carrots","spam"])
-menu.append(["spam","egg","potatoes","spam"])
+# menu = []
+# menu.append(["egg","spam","carrots"])
+# menu.append(["egg", "potatoes","carrots"])
+# menu.append(["egg","spam",])
+# menu.append(["egg","carrots", "spam"])
+# menu.append(["egg","carrots","potatoes","spam"])
+# menu.append(["spam","carrots","potatoes","spam"])
+# menu.append(["spam","egg","spam","spam","carrots","spam"])
+# menu.append(["spam","egg","potatoes","spam"])
 
-print(menu)
+# print(menu)
 
-#
-#
-for meal in menu:
-	if not "spam" in meal:
-		print(meal)
-		for ingredient in meal:
-			print(ingredient)
+# #
+# #
+# for meal in menu:
+# 	if not "spam" in meal:
+# 		print(meal)
+# 		for ingredient in meal:
+# 			print(ingredient)
+
+string = "1234567890"
+
+my_iterator = iter(string)
+print(my_iterator)
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
+print(next(my_iterator))
