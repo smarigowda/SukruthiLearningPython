@@ -12,4 +12,24 @@
 # else:
 # 	print("list 1 and 3 are not equal")
 
-print(list("The lists are equal"))
+# print(list("The lists are equal"))
+
+menu = []
+menu.append(["egg","spam","carrots"])
+menu.append(["egg", "potatoes","carrots"])
+menu.append(["egg","spam",])
+menu.append(["egg","carrots", "spam"])
+menu.append(["egg","carrots","potatoes","spam"])
+menu.append(["spam","carrots","potatoes","spam"])
+menu.append(["spam","egg","spam","spam","carrots","spam"])
+menu.append(["spam","egg","potatoes","spam"])
+
+print(menu)
+
+#
+#
+for meal in menu:
+	if not "spam" in meal:
+		print(meal)
+		for ingredient in meal:
+			print(ingredient)
