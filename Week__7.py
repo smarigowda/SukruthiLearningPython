@@ -58,17 +58,44 @@
 # 	print(char)
 
 
-for i in range(0, 1):
-	print i
+# for i in range(0, 1):
+# 	print i
 
-my_list = ["1,2,3,4,5,6,7"] # this is a single element
-my_iterator = iter(my_list)
+# my_list = ["1,2,3,4,5,6,7"] # this is a single element
+# my_iterator = iter(my_list)
 
-for i in range(0, len(my_list)):
-	next_item = next(my_iterator)
-	print(next_item)
+# for i in range(0, len(my_list)):
+# 	next_item = next(my_iterator)
+# 	print(next_item)
 
+my_list = list(range(10))
+print(my_list)
+#
+even = list(range(0, 10, 2))
+odd = list(range(1, 10, 2))
+#
+print(even)
+print(odd)
 
+##################################
+
+my_string ="abcdefghijklmnopqrstuvwxyz"
+print(my_string.index('e'))
+print(my_string[4])
+
+###################################
+
+small_decimals = range(0, 10)
+print(small_decimals)
+
+print(small_decimals.index(3))
+
+##################################
+
+odd = range(1, 10000, 2)
+print(odd)
+
+print(odd[985]) # It gives the 985th odd number
 
 
 
